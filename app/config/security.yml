@@ -4,6 +4,10 @@ security:
 
     # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
     providers:
+        db_provider:
+            entity:
+                class: AppBundle:User
+                property: username
         in_memory:
             memory: ~
 
