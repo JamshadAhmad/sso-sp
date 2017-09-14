@@ -1,4 +1,4 @@
-idp
+Symfony based sso service provider
 ===
 
-A Symfony project created on September 11, 2017, 5:34 pm.
+A Symfony project, acts as a Service Provider end for sso authentication.
